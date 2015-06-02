@@ -270,8 +270,9 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/header_bg2.jpg) no-repeat center top;
+	background: #CCD7E2 no-repeat center top;
 	margin-top: -50px;
+    padding-bottom: 20px;
 	padding-top:120px;
 	text-align:center;
 	background-attachment: relative;
@@ -291,7 +292,7 @@ a:after {
 }
 
 #headerwrap h1 {
-	color:#ffffff;
+	color:#222222;
 	margin-top: 90px;
 	padding-bottom: 30px;
 	letter-spacing: 8px;
@@ -301,14 +302,14 @@ a:after {
 }
 
 #headerwrap p {
-	color:#ffffff;
+	color:#222222;
 	font-size: 40px;
 	font-weight: 400;
 	text-align: center;
 	line-height: 40px;
 	letter-spacing: 3px;
 	margin-left: 15px;
-	text-shadow: 1px 1px 1px #000;
+    margin-bottom: 20px;
 }
 
 #greywrap {
@@ -522,7 +523,7 @@ a:after {
 	padding: 5px 10px;
 	margin-left: 20px;
 	display: inline-block;
-	background: #2f2f2f;
+	/*background: #2f2f2f;*/
 	color: #fff;
 	font-size: 13px;
 }
