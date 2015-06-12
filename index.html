@@ -235,11 +235,14 @@
 						      <div class="modal-content">
 						        <div class="modal-header">
 						          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-						          <h4 class="modal-title">Project Title</h4>
+						          <h4 class="modal-title">How to define Data Types</h4>
 						        </div>
 						        <div class="modal-body">
 						          <p>
                                   <iframe width="560" height="315" src="https://www.youtube.com/embed/zV70nrsMEZg" frameborder="0" allowfullscreen></iframe>
+                                  </p>
+                                  <p>
+                                  	<b>How to Define Data Types</b>, by Stephen Compall
                                   </p>
 						          <p>It's one thing to know about the numerous features for defining datatypes in Haskell; it's another to know when to use each one, to maximize the utility of your datatype definitions and minimize boilerplate code for working with them.  In this talk, we will define a set of "rules of thumb" for writing datatype definitions; these rules, inspired by Edward Kmett's practices and 100% lens-friendly, will scale with you as you grow from beginner to experienced Haskell programmer.
                                   </p>
@@ -259,13 +262,39 @@
 						<figure>
 							<img class="img-responsive" src="http://img.youtube.com/vi/il3gD7XMdmA/hqdefault.jpg" alt="">
 							<figcaption>
-								<a data-toggle="modal" href="#myModal" class="btn btn-link btn-lg">
+								<a data-toggle="modal" href="#typeInference" class="btn btn-link btn-lg">
 								<h5>Introduction to Type Inference</h5>
                                 </a>
 							</figcaption><!-- /figcaption -->
 						</figure><!-- /figure -->
 			    	</div><!-- /grid-mask -->
 				</div><!-- /col -->
+
+						  <div class="modal fade" id="typeInference" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						    <div class="modal-dialog">
+						      <div class="modal-content">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						          <h4 class="modal-title">Type Inference</h4>
+						        </div>
+						        <div class="modal-body">
+						          <p>
+                                  <iframe width="560" height="315" src="https://www.youtube.com/embed/il3gD7XMdmA" frameborder="0" allowfullscreen></iframe>
+                                  </p>
+                                  <p>
+                                  	<b>Introduction to Type Inference</b>, by Brian Hurt
+                                  </p>
+						          <p>
+						          	Have you ever wondered what a "rigid type variable" was, and why Haskell was complaining about trying to unify it?  An intuition of how Haskell's type system works is an absolute must for Haskell programmers (as well as Ocaml programmers, Scala programmers, Swift programmers, etc.).  The easiest way to gain that intuition is to see an actual, if simplified, type system developed. Brian starts with a simplified subset of Haskell and develops a simplified type system for it- but not so simplified that critical problems aren't addressed. 
+                                  </p>
+						          <p><b><a href="https://github.com/bhurt/presentations/raw/master/types.pdf">Slides</a></b></p>
+						        </div>
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        </div>
+						      </div><!-- /.modal-content -->
+						    </div><!-- /.modal-dialog -->
+						  </div><!-- /.modal -->
 				
 				<!-- PORTFOLIO IMAGE 3 -->
 				<div class="col-md-4">
@@ -273,7 +302,7 @@
 						<figure>
 							<img class="img-responsive" src="http://img.youtube.com/vi/xo3zUvPsizo/hqdefault.jpg" alt="">
 							<figcaption>
-								<a data-toggle="modal" href="#myModal" class="btn btn-link btn-lg">
+								<a data-toggle="modal" href="#soundSynth" class="btn btn-link btn-lg">
 								<h5>Vivid: Sound Synthesis in Haskell</h5>
                                 </a>
 							</figcaption><!-- /figcaption -->
@@ -282,6 +311,36 @@
 				</div><!-- /col -->
 			</div><!-- /row -->
 
+						  <div class="modal fade" id="soundSynth" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						    <div class="modal-dialog">
+						      <div class="modal-content">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						          <h4 class="modal-title">Vivid: Sound Synthesis in Haskell</h4>
+						        </div>
+						        <div class="modal-body">
+						          <p>
+                                  <iframe width="560" height="315" src="https://www.youtube.com/embed/xo3zUvPsizo" frameborder="0" allowfullscreen></iframe>
+                                  </p>
+						          <p>
+						          	<b>Vivid: Sound Synthesis in Haskell</b>, by Tom Murphy
+						          </p>
+						          <p> 
+						          	In this talk, I'll give you a tour of Vivid, a new Haskell sound synthesis library, which acts as a frontend to the SuperCollider synthesis engine.  You'll see how to create sounds and music with it, how it's built, and possibilities for future directions.
+						          </p>
+						          <p> 
+						          	Tom Murphy is a Haskell programmer at skedge.me in New York.  He's interested in typed functional programming, digital art, and correctness in large software systems.  Previously, he's worked with Erlang and Rails, among others.
+                                  </p>
+						          <p><b><a href="#">Slides</a></b></p>
+						          <p><b><a href="http://www.reddit.com/r/haskell/comments/2ycm0s/vivid_sound_synthesis_in_haskell_nyhaskell_meetup/">Discussion on Reddit</a></b></p>
+						        </div>
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        </div>
+						      </div><!-- /.modal-content -->
+						    </div><!-- /.modal-dialog -->
+						  </div><!-- /.modal -->
+
 				<!-- PORTFOLIO IMAGE 4 -->
 			<div class="row">	
 				<div class="col-md-4 ">
@@ -289,35 +348,87 @@
 						<figure>
 							<img class="img-responsive" src="http://img.youtube.com/vi/fTNEDhMjevQ/hqdefault.jpg" alt="">
 							<figcaption>
-								<a data-toggle="modal" href="#myModal" class="btn btn-link btn-lg">
+								<a data-toggle="modal" href="#jsSDK" class="btn btn-link btn-lg">
                                 <h5>Generating a Javascript SDK</h5>
                                 </a>
 							</figcaption><!-- /figcaption -->
 						</figure><!-- /figure -->
 			    	</div><!-- /grid-mask -->
 				</div><!-- /col -->
-				
+
+						  <div class="modal fade" id="jsSDK" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						    <div class="modal-dialog">
+						      <div class="modal-content">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						          <h4 class="modal-title">Generating a Javascript SDK</h4>
+						        </div>
+						        <div class="modal-body">
+						          <p>
+                                  <iframe width="560" height="315" src="https://www.youtube.com/embed/fTNEDhMjevQ" frameborder="0" allowfullscreen></iframe>
+                                  </p>
+						          <p>
+                                  </p>
+						          <!-- <p><b><a href="#">Slides</a></b></p> -->
+						          <p><b><a href="http://www.reddit.com/r/haskell/comments/2y4tof/dancing_with_the_devil_generating_a_javascript_sdk/">Discussion on Reddit</a></b></p>
+						        </div>
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        </div>
+						      </div><!-- /.modal-content -->
+						    </div><!-- /.modal-dialog -->
+						  </div><!-- /.modal -->				
+
 				<!-- PORTFOLIO IMAGE 5 -->
 				<div class="col-md-4">
 			    	<div class="grid mask">
 						<figure>
 							<img class="img-responsive" src="http://img.youtube.com/vi/mYvkcskJbc4/hqdefault.jpg" alt="">
 							<figcaption>
-								<a data-toggle="modal" href="#myModal" class="">
+								<a data-toggle="modal" href="#reflexFRP" class="">
 								<h5>Reflex: Practical FRP in Haskell (part 1)</h5>
                                 </a>
 							</figcaption><!-- /figcaption -->
 						</figure><!-- /figure -->
 			    	</div><!-- /grid-mask -->
 				</div><!-- /col -->
-				
+
+						  <div class="modal fade" id="reflexFRP" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						    <div class="modal-dialog">
+						      <div class="modal-content">
+						        <div class="modal-header">
+						          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						          <h4 class="modal-title">Reflex: Practical FRP in Haskell</h4>
+						        </div>
+						        <div class="modal-body">
+						          <p>
+                                  <iframe width="560" height="315" src="https://www.youtube.com/embed/mYvkcskJbc4" frameborder="0" allowfullscreen></iframe>
+                                  </p>
+                                  <p>
+                                  <iframe width="560" height="315" src="https://www.youtube.com/embed/3qfc9XFVo2c" frameborder="0" allowfullscreen></iframe>
+                                  </p>
+						          <p>
+						          	Ryan Trinkle presents his new library, Reflex, a deterministic, efficient, higher-order Functional Reactive Programming system. FRP is a radically new paradigm for writing interactive software: Instead of writing event loops or callbacks, programmers compose interactive applications using ordinary pure functional programming methods. The unique design of Reflex gives it the power and flexibility necessary to handle complex large-scale applications. Reflex can be compiled to binary using GHC or JavaScript using GHCJS.
+
+									Ryan Trinkle has been CTO of a successful Haskell-based startup, founder of an exclusively-Haskell software development company, and co-founder of the New York Haskell Meetup.
+                                  </p>
+						          <p><b><a href="https://obsidian.systems/reflex-nyhug/">Slides</a></b></p>
+						          <p><b><a href="http://www.reddit.com/r/reflexfrp">Discussion on Reddit</a></b></p>
+						        </div>
+						        <div class="modal-footer">
+						          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						        </div>
+						      </div><!-- /.modal-content -->
+						    </div><!-- /.modal-dialog -->
+						  </div><!-- /.modal -->	
+
 				<!-- PORTFOLIO IMAGE 6 -->
 				<div class="col-md-4">
 			    	<div class="grid mask">
 						<figure>
 							<img class="img-responsive" src="http://img.youtube.com/vi/3qfc9XFVo2c/hqdefault.jpg" alt="">
 							<figcaption>
-								<a data-toggle="modal" href="#myModal" class="">
+								<a data-toggle="modal" href="#reflexFRP" class="">
 								<h5>Reflex: Practical FRP in Haskell (part 2)</h5>
                                 </a>
 							</figcaption><!-- /figcaption -->
