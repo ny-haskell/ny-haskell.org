@@ -270,7 +270,7 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-	background: #CCD7E2 no-repeat center top;
+	background: #000 no-repeat center top;
 	margin-top: -50px;
     padding-bottom: 20px;
 	padding-top:120px;
@@ -302,7 +302,7 @@ a:after {
 }
 
 #headerwrap p {
-	color:#222222;
+	color:#FFFFFF;
 	font-size: 40px;
 	font-weight: 400;
 	text-align: center;
