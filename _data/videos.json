@@ -1,0 +1,222 @@
+{
+  "talks": [
+    {
+      "title": "Parallel Computation of Cryptographic Hash Functions",
+      "abstract": "This talk is an exploration of some work in progress that resulted  from an attempt to answer these questions: 1) How to arrive at a multicore reference implementation of the Sakura tree hash mode? 2) How to enable communication of \"shape\" between the entity that computes a cryptographic tree hash with the verifier of this hash? 3) How well does this reference implementation scale w.r.t. the number of cores, sizes of inputs, and variety of shapes?  4) How to do all this without becoming an expert on C++ parallel programming?<br/><br/>
+
+        This talk will be introductory and self-contained.  All we require of  the audience is willingness and ability to read Haskell code.<br/><br/>
+
+        Extended Technical Notes:<br/><br/>
+
+        Wikipedia defines a cryptographic hash function as a hash function which is effectively impossible to invert, that is, to recreate the input data from its hash value alone. These functions have been called \"the workhorses of modern cryptography\" and have many information security applications, notably in digital signatures, message authentication codes (MACs), and other forms of authentication of messages. <br/><br/>
+
+        The ideal cryptographic hash function has four main properties: 1) it is easy to compute the hash value for any given input, 2) it is infeasible to generate a input from its hash value, 3) it is infeasible to modify a input without changing its hash value, and 4) it is infeasible to find two different inputs with the same hash value. <br/><br/>
+
+        The NIST announced a public competition in November 2007 to develop a new cryptographic hash algorithm, called SHA-3, for standardization. NIST announced Keccak as the winner of the SHA-3 Cryptographic Hash Algorithm Competition on October 2, 2012, and ended the five-year competition. The authors of Keccak also proposed a flexible, fairly general, encoding for tree hash modes, in order to enable the possibility to cleanly carry out sub-computations in parallel. Their \"Sakura\" encoding specifies how to use a standard cryptographic hash function on suitably divided portions of a long input message and combine the outputs so obtained in order to arrive at a single hash value enjoying the four properties listed above. The authors did not specify the mode by which the computer of the hash value communicates the \"shape\" in which these sub-computations are organized to verifiers of the hash. We designed a Domain Specific Language in Haskell in order to do this in a compact, understandable manner.",
+      "talk_date": "2015-09-23 20:00:00",
+      "meetup_url": "http://www.meetup.com/NY-Haskell/events/225238417/",
+      "youtubeId": "VL04HTzL2B0",
+      "slides_url": "http://files.meetup.com/5087172/MultiCoreHaskellSak.pdf",
+      "speaker": [
+        "name": "Prasad Rao",
+        "github": "",
+        "twitter": ""
+      ],
+      "modal": "parallel"
+    },
+    {
+      "title": "Wrangling Monad Transformer Stacks",
+      "abstract": "The first of what a projected series of talks on libraries (and other language aspects) which are very useful, but don't get the publicity they deserve.  This talk focuses on libraries to manage monad transformer stacks.  Monad transformer stacks show up quite a lot in real world Haskell programs, and this talk will introduce several libraries that make working with them easier.",
+      "talk_date": "2015-08-26 19:00:00",
+      "meetup_url": "http://www.meetup.com/NY-Haskell/events/224402807/",
+      "youtubeId": "8t8fjkISjus",
+      "slides_url": "https://github.com/bhurt/presentations/blob/master/hsgems.odp",
+      "speaker": [
+        "name": "Brian Hurt",
+        "github": "",
+        "twitter": ""
+      ],
+      "modal": "wrangle"
+    },
+    {
+      "title": "Set Theory and Haskell Part 1",
+      "abstract": "What is Set Theory: </b><br/><br/>
+      ZFC set theory is an axiomatic theory of sets. The reason for such a theory is that one wants a \"definition\" of what a set is. The reason that sets are important to mathematics is that they provide an encoding of most of mathematics (there are a couple of reasons why one cannot encode all of math).
+      <br/><br/>
+      <b>Why Learn about Set Theory:</b><br/><br/>
+
+      Axiomatic set theories provide the theoretical underpinnings of various subjects of interest to programmers and computer scientists. For instance relational database theory, and Lisp/scheme are both based upon set theory. ZFC set theory in particular acts as an assembly language for most of mathematics. It is also interesting to note the quite a few of the axioms of ZFC come naturally out of common functional constructs such as Append, Filter, and Map. 
+      <br/><br/>
+      <b>What I will be Discussing:</b><br/><br/>
+
+      In this talk, I will discuss the theory of ZFC set theory, its raison d'etre (to be pretentious), as well as some applications (time permitting). Some Haskell code will also be shown that illustrates the axioms of ZFC.",
+      "talk_date": "2015-06-24 19:00:00",
+      "meetup_url": "http://www.meetup.com/NY-Haskell/events/222965983/",
+      "youtubeId": "beaBqjLhBJU",
+      "slides_url": "",
+      "speaker": [
+        "name": "Lou Thrall",
+        "github": "",
+        "twitter": ""
+      ],
+      "modal": "setTheory2015"
+    }, 
+    {
+      "title": "Set Theory and Haskell Part 2",
+      "abstract": "What is Set Theory: </b><br/><br/>
+      ZFC set theory is an axiomatic theory of sets. The reason for such a theory is that one wants a \"definition\" of what a set is. The reason that sets are important to mathematics is that they provide an encoding of most of mathematics (there are a couple of reasons why one cannot encode all of math).
+      <br/><br/>
+      <b>Why Learn about Set Theory:</b><br/><br/>
+
+      Axiomatic set theories provide the theoretical underpinnings of various subjects of interest to programmers and computer scientists. For instance relational database theory, and Lisp/scheme are both based upon set theory. ZFC set theory in particular acts as an assembly language for most of mathematics. It is also interesting to note the quite a few of the axioms of ZFC come naturally out of common functional constructs such as Append, Filter, and Map. 
+      <br/><br/>
+      <b>What I will be Discussing:</b><br/><br/>
+
+      In this talk, I will discuss the theory of ZFC set theory, its raison d'etre (to be pretentious), as well as some applications (time permitting). Some Haskell code will also be shown that illustrates the axioms of ZFC.",
+      "talk_date": "2015-06-24 19:00:00",
+      "meetup_url": "http://www.meetup.com/NY-Haskell/events/222965983/",
+      "youtubeId": "jhIviVZ5ORE",
+      "slides_url": "",
+      "speaker": [
+        "name": "Lou Thrall",
+        "github": "",
+        "twitter": ""
+      ],
+      "modal": "setTheory2015"
+    }, 
+    {
+      "title": "Diagrams: Composition, Envelopes, and Alignment Part 1",
+      "abstract": "The diagrams library, which makes drawing complex pictures easy in with Haskell code, has just released a slew of new features with version 1.3 [1][1].<br/><br/>
+
+This talk will give a brief introduction to the diagrams EDSL and how to use it, as well as an overview of some of the new features available in the 1.3 release. Some time will be spent on the finer details of making diagrams, and some cool pictures will be drawn.<br/><br/>
+
+[1]: http://projects.haskell.org/diagrams/blog/2015-04-24-diagrams-1.3.html",
+      "talk_date": "2015-05-27 19:00:00",
+      "meetup_url": "http://www.meetup.com/NY-Haskell/events/222592682/",
+      "youtubeId": "nZCzsBOYdis",
+      "slides_url": "",
+      "speaker": [
+        "name": "Jeff Rosenbluth",
+        "github": "",
+        "twitter": ""
+      ],
+      "modal": "diagrams20152"
+    }, 
+    {
+      "title": "Diagrams: Composition, Envelopes, and Alignment Part 2",
+      "abstract": "The diagrams library, which makes drawing complex pictures easy in with Haskell code, has just released a slew of new features with version 1.3 [1][1].<br/><br/>
+
+This talk will give a brief introduction to the diagrams EDSL and how to use it, as well as an overview of some of the new features available in the 1.3 release. Some time will be spent on the finer details of making diagrams, and some cool pictures will be drawn.<br/><br/>
+
+[1]: http://projects.haskell.org/diagrams/blog/2015-04-24-diagrams-1.3.html",
+      "talk_date": "2015-05-27 19:00:00",
+      "meetup_url": "http://www.meetup.com/NY-Haskell/events/222592682/",
+      "img_thumb": "http://img.youtube.com/vi/5_fCUSOn7m0/hqdefault.jpg",
+      "youtubeId": "5_fCUSOn7m0",
+      "slides_url": "",
+      "speaker": [
+        "name": "Jeff Rosenbluth",
+        "github": "",
+        "twitter": ""
+      ],
+      "modal": "diagrams20151"
+    },  
+    {
+      "title": "Reflex: Practical FRP in Haskell (part 1)",
+      "abstract": "Ryan Trinkle presents his new library, Reflex, a deterministic, efficient, higher-order Functional Reactive Programming system. FRP is a radically new paradigm for writing interactive software: Instead of writing event loops or callbacks, programmers compose interactive applications using ordinary pure functional programming methods. The unique design of Reflex gives it the power and flexibility necessary to handle complex large-scale applications. Reflex can be compiled to binary using GHC or JavaScript using GHCJS.",
+      "bio": "Ryan Trinkle has been CTO of a successful Haskell-based startup, founder of an exclusively-Haskell software development company, and co-founder of the New York Haskell Meetup.",
+      "talk_date": "2015-03-25 19:00:00",
+      "meetup_url": "http://www.meetup.com/NY-Haskell/events/221142235/",
+      "img_thumb": "http://img.youtube.com/vi/mYvkcskJbc4/hqdefault.jpg",
+      "youtubeId": "mYvkcskJbc4",
+      "slides_url": "",
+      "speaker": [
+        "name": "Ryan Trinkle",
+        "github": "",
+        "twitter": ""
+      ],
+      "modal": "reflexFRP1"
+    },
+    {
+      "title": "Reflex: Practical FRP in Haskell (part 2)",
+      "abstract": "Ryan Trinkle presents his new library, Reflex, a deterministic, efficient, higher-order Functional Reactive Programming system. FRP is a radically new paradigm for writing interactive software: Instead of writing event loops or callbacks, programmers compose interactive applications using ordinary pure functional programming methods. The unique design of Reflex gives it the power and flexibility necessary to handle complex large-scale applications. Reflex can be compiled to binary using GHC or JavaScript using GHCJS.",
+      "bio": "Ryan Trinkle has been CTO of a successful Haskell-based startup, founder of an exclusively-Haskell software development company, and co-founder of the New York Haskell Meetup.",
+      "talk_date": "2015-03-25 19:00:00",
+      "meetup_url": "http://www.meetup.com/NY-Haskell/events/221142235/",
+      "img_thumb": "http://img.youtube.com/vi/3qfc9XFVo2c/hqdefault.jpg",
+      "youtubeId": "3qfc9XFVo2c",
+      "slides_url": "https://obsidian.systems/reflex-nyhug/",
+      "speaker": [
+        "name": "Ryan Trinkle",
+        "github": "",
+        "twitter": ""
+      ],
+      "modal": "reflexFRP2"
+    },
+    {
+      "title": "Generating a Javascript SDK",
+      "abstract": "",
+      "talk_date": "",
+      "meetup_url": "",
+      "img_thumb": "http://img.youtube.com/vi/fTNEDhMjevQ/hqdefault.jpg",
+      "youtubeId": "fTNEDhMjevQ",
+      "slides_url": "",
+      "reddit_url": "http://www.reddit.com/r/haskell/comments/2y4tof/dancing_with_the_devil_generating_a_javascript_sdk/",
+      "speaker": [
+        "name": "Evan",
+        "github": "",
+        "twitter": ""
+      ],
+      "modal": "jsSDK"
+    },
+    {
+      "title": "Vivid: Sound Synthesis in Haskell",
+      "abstract": "In this talk, I'll give you a tour of Vivid, a new Haskell sound synthesis library, which acts as a frontend to the SuperCollider synthesis engine.  You'll see how to create sounds and music with it, how it's built, and possibilities for future directions.",
+      "bio": "Tom Murphy is a Haskell programmer at skedge.me in New York.  He's interested in typed functional programming, digital art, and correctness in large software systems.  Previously, he's worked with Erlang and Rails, among others.",
+      "talk_date": "",
+      "meetup_url": "",
+      "img_thumb": "http://img.youtube.com/vi/xo3zUvPsizo/hqdefault.jpg",
+      "youtubeId": "xo3zUvPsizo",
+      "slides_url": "",
+      "reddit_url": "http://www.reddit.com/r/haskell/comments/2ycm0s/vivid_sound_synthesis_in_haskell_nyhaskell_meetup/",
+      "speaker": [
+        "name": "Tom Murphy",
+        "github": "",
+        "twitter": ""
+      ],
+      "modal": "soundSynth"
+    },
+    {
+      "title": "Introduction to Type Inference",
+      "abstract": "Have you ever wondered what a \"rigid type variable\" was, and why Haskell was complaining about trying to unify it?  An intuition of how Haskell's type system works is an absolute must for Haskell programmers (as well as Ocaml programmers, Scala programmers, Swift programmers, etc.).  The easiest way to gain that intuition is to see an actual, if simplified, type system developed. Brian starts with a simplified subset of Haskell and develops a simplified type system for it- but not so simplified that critical problems aren't addressed.",
+      "talk_date": "2015-04-22 20:00:00",
+      "meetup_url": "http://www.meetup.com/NY-Haskell/events/221660808/",
+      "img_thumb": "http://img.youtube.com/vi/il3gD7XMdmA/hqdefault.jpg",
+      "youtubeId": "il3gD7XMdmA",
+      "slides_url": "https://github.com/bhurt/presentations/raw/master/types.pdf",
+      "speaker": [
+        "name": "Brian Hurt",
+        "github": "",
+        "twitter": ""
+      ],
+      "modal": "typeInference"
+    },
+    {
+      "title": "How to define Data Types",
+      "abstract": "It's one thing to know about the numerous features for defining datatypes in Haskell; it's another to know when to use each one, to maximize the utility of your datatype definitions and minimize boilerplate code for working with them.  In this talk, we will define a set of \"rules of thumb\" for writing datatype definitions; these rules, inspired by Edward Kmett's practices and 100% lens-friendly, will scale with you as you grow from beginner to experienced Haskell programmer.",
+      "talk_date": "2015-04-22 19:00:00",
+      "meetup_url": "http://www.meetup.com/NY-Haskell/events/221660808/",
+      "img_thumb": "http://img.youtube.com/vi/zV70nrsMEZg/hqdefault.jpg",
+      "youtubeId": "zV70nrsMEZg",
+      "slides_url": "http://nocandysw.com/how-to-define-data-types.pdf",
+      "speaker": [
+        "name": "Stephen Compall",
+        "github": "",
+        "twitter": ""
+      ],
+      "modal": "defineTypes"
+    }
+  ]
+}
+
+
