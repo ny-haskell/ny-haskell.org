@@ -1,6 +1,71 @@
 {
   "talks": [
     {
+      "title": "Translating Hardware to Haskell",
+      "abstract": "Despite years of research, most digital integrated circuits are still described in low-level register-transfer languages like Verilog and VHDL.  Users must enumerate nearly every gate, wire, and flip-flop, something we would like to avoid in today's era of billion-transistor chips.  Moreover, types in these languages tend to be limited to bit vectors, and even basic control constructs such as iteration are barely supported.<br/><br/>
+      Consequently, many have proposed higher-level hardware description languages, allowing the designer to specify behavior of their computation without concern for such low-level implementation details. These efforts have demonstrated the importance of the original language semantics.  Imperative languages such as C tend to produce mediocre hardware because their semantics rest on a single, global memory that is difficult to parallelize.  Functional languages in the form of embedded DSLs have met with more success.<br/><br/>
+      Rather than have the developer express his or her computation in a hardware-oriented DSL, we propose that they describe their circuit using a standard, modern functional language such as Haskell. This talk presents a language, FHW, that is serves as an intermediate representation for a general Haskell-to-hardware compiler.<br/><br/>
+      The goal of the work presented here is to synthesize hardware from arbitrary Haskell programs through a series of semantics-preserving transformations that ultimately fit a program to FHW--a dialect of GHC's Core intermediate representation that admits a syntax-directed translation to hardware.",
+      "talk_date": "2016-02-24 19:00:00",
+      "meetup_url": "http://www.meetup.com/NY-Haskell/events/228747255/",
+      "youtubeId": "k02mEtPfdaQ",
+      "slides_url": "",
+      "speaker": {
+        "name": "Lianne Lairmore",
+        "github": "",
+        "twitter": ""
+      },
+      "modal": "hw16"
+    },
+    {
+      "title": "Interactive Theorem Proving with Lean",
+      "abstract": "The last decade has seen interactive theorem proving go from the ivory tower of theory to impressive applications, notably the Compcert certified C compiler [1][1] and the mechanized proof of the Feit-Thompson theorem whose proof is a daunting 200 pages of graduate mathematics [2][2]. It's tempting to hope that interactive theorem proving could become a mundane part of programming practice in industry, where designs are validated by computer-assisted proof rather than tests or manual review. <br/><br/>
+      This talk will present a new ITP system called Lean [3][3], which is based on dependent type theory. It will also give an overview of the basics of interactive theorem proving, outlining the system design (contrasting it to programming language design) and showing concrete examples. First we will give an overview of the general approach and present some basic examples to help give a feel for the everyday practice of proving theorems. The second part of the talk will then contrast Lean with other ITP systems (such as Coq and Agda) and give some taste of the more advanced features of the system.<br/>
+      [1]: http://compcert.inria.fr/
+      [2]: http://research.microsoft.com/en-us/news/features/gonthierproof-101112.aspx
+      [3]: https://leanprover.github.io/about/ ",
+      "bio": "Cody Roux has a PhD in Type Theory from INRIA, and worked on elements of the Lean theorem prover while a Postdoc at CMU, particularly the elaborator. He is a co-author with Leonardo de Moura, Jeremy Avigad, and Soonho Kon of the paper \"Elaboration in Dependent Type Theory\" (http://arxiv.org/abs/1505.04324) which describes the elaboration algorithm used in Lean. He currently works for Draper Labs at Cambridge, MA.",
+      "talk_date": "2015-11-25 19:00:00",
+      "meetup_url": "http://www.meetup.com/NY-Haskell/events/226667224/",
+      "youtubeId": "tU5HfVc2nR8",
+      "slides_url": "https://github.com/codyroux/ny-haskell/blob/master/slides/talk.pdf",
+      "speaker": {
+        "name": "Cody Roux",
+        "github": "",
+        "twitter": ""
+      },
+      "modal": "theorem15"
+    },
+    {
+      "title": "Struture Editing Combinators",
+      "abstract": "Jason Priestley will talk about Structure Editing Combinators. A Structure Editor is an editor that operates directly on the abstract tree structure of a program, instead of textual code. Structure Editing Combinators are Parsec-style combinators, which resemble a high-level specification of the grammar of a language; instead of producing a parser for that langauge, they produce a Structure Editor, with pretty-printing, mouse-based selection, and autocompleting text input.",
+      "bio": "Jason Priestley has been programming since 2007, writing web UIs for companies like Fitbit and Birst. He has been writing Haskell since 2009, and is the author of the new Sneath Lane web UI library, as well as the defunct Haskell on a Horse web framework.",
+      "talk_date": "2015-10-28 19:00:00",
+      "meetup_url": "http://www.meetup.com/NY-Haskell/events/225618891/",
+      "youtubeId": "u9f5rbjACZU",
+      "slides_url": "",
+      "speaker": [
+        "name": "Jason Priestley",
+        "github": "",
+        "twitter": ""
+      ],
+      "modal": "structureediting"
+    },
+    {
+      "title": "The Not-A-Wat in Haskell",
+      "abstract": "",
+      "talk_date": "",
+      "meetup_url": "",
+      "youtubeId": "87re_yIQMDw",
+      "slides_url": "",
+      "speaker": {
+        "name": "Brian Hurt",
+        "github": "",
+        "twitter": ""
+      },
+      "modal": "notawat"
+    },
+    {
       "title": "Parallel Computation of Cryptographic Hash Functions",
       "abstract": "This talk is an exploration of some work in progress that resulted  from an attempt to answer these questions: 1) How to arrive at a multicore reference implementation of the Sakura tree hash mode? 2) How to enable communication of \"shape\" between the entity that computes a cryptographic tree hash with the verifier of this hash? 3) How well does this reference implementation scale w.r.t. the number of cores, sizes of inputs, and variety of shapes?  4) How to do all this without becoming an expert on C++ parallel programming?<br/><br/>
 
