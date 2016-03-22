@@ -17,11 +17,11 @@
       "meetup_url": "http://www.meetup.com/NY-Haskell/events/225238417/",
       "youtubeId": "VL04HTzL2B0",
       "slides_url": "http://files.meetup.com/5087172/MultiCoreHaskellSak.pdf",
-      "speaker": [
+      "speaker": {
         "name": "Prasad Rao",
         "github": "",
         "twitter": ""
-      ],
+      },
       "modal": "parallel"
     },
     {
@@ -31,11 +31,11 @@
       "meetup_url": "http://www.meetup.com/NY-Haskell/events/224402807/",
       "youtubeId": "8t8fjkISjus",
       "slides_url": "https://github.com/bhurt/presentations/blob/master/hsgems.odp",
-      "speaker": [
+      "speaker": {
         "name": "Brian Hurt",
         "github": "",
         "twitter": ""
-      ],
+      },
       "modal": "wrangle"
     },
     {
@@ -54,11 +54,11 @@
       "meetup_url": "http://www.meetup.com/NY-Haskell/events/222965983/",
       "youtubeId": "beaBqjLhBJU",
       "slides_url": "",
-      "speaker": [
+      "speaker": {
         "name": "Lou Thrall",
         "github": "",
         "twitter": ""
-      ],
+      },
       "modal": "setTheory2015"
     }, 
     {
@@ -77,11 +77,11 @@
       "meetup_url": "http://www.meetup.com/NY-Haskell/events/222965983/",
       "youtubeId": "jhIviVZ5ORE",
       "slides_url": "",
-      "speaker": [
+      "speaker": {
         "name": "Lou Thrall",
         "github": "",
         "twitter": ""
-      ],
+      },
       "modal": "setTheory2015"
     }, 
     {
@@ -95,11 +95,11 @@ This talk will give a brief introduction to the diagrams EDSL and how to use it,
       "meetup_url": "http://www.meetup.com/NY-Haskell/events/222592682/",
       "youtubeId": "nZCzsBOYdis",
       "slides_url": "",
-      "speaker": [
+      "speaker": {
         "name": "Jeff Rosenbluth",
         "github": "",
         "twitter": ""
-      ],
+      },
       "modal": "diagrams20152"
     }, 
     {
@@ -114,11 +114,11 @@ This talk will give a brief introduction to the diagrams EDSL and how to use it,
       "img_thumb": "http://img.youtube.com/vi/5_fCUSOn7m0/hqdefault.jpg",
       "youtubeId": "5_fCUSOn7m0",
       "slides_url": "",
-      "speaker": [
+      "speaker": {
         "name": "Jeff Rosenbluth",
         "github": "",
         "twitter": ""
-      ],
+      },
       "modal": "diagrams20151"
     },  
     {
@@ -146,11 +146,11 @@ This talk will give a brief introduction to the diagrams EDSL and how to use it,
       "img_thumb": "http://img.youtube.com/vi/3qfc9XFVo2c/hqdefault.jpg",
       "youtubeId": "3qfc9XFVo2c",
       "slides_url": "https://obsidian.systems/reflex-nyhug/",
-      "speaker": [
+      "speaker": {
         "name": "Ryan Trinkle",
         "github": "",
         "twitter": ""
-      ],
+      },
       "modal": "reflexFRP2"
     },
     {
@@ -162,11 +162,11 @@ This talk will give a brief introduction to the diagrams EDSL and how to use it,
       "youtubeId": "fTNEDhMjevQ",
       "slides_url": "",
       "reddit_url": "http://www.reddit.com/r/haskell/comments/2y4tof/dancing_with_the_devil_generating_a_javascript_sdk/",
-      "speaker": [
+      "speaker": {
         "name": "Evan",
         "github": "",
         "twitter": ""
-      ],
+      },
       "modal": "jsSDK"
     },
     {
@@ -179,11 +179,11 @@ This talk will give a brief introduction to the diagrams EDSL and how to use it,
       "youtubeId": "xo3zUvPsizo",
       "slides_url": "",
       "reddit_url": "http://www.reddit.com/r/haskell/comments/2ycm0s/vivid_sound_synthesis_in_haskell_nyhaskell_meetup/",
-      "speaker": [
+      "speaker": {
         "name": "Tom Murphy",
         "github": "",
         "twitter": ""
-      ],
+      },
       "modal": "soundSynth"
     },
     {
@@ -194,11 +194,11 @@ This talk will give a brief introduction to the diagrams EDSL and how to use it,
       "img_thumb": "http://img.youtube.com/vi/il3gD7XMdmA/hqdefault.jpg",
       "youtubeId": "il3gD7XMdmA",
       "slides_url": "https://github.com/bhurt/presentations/raw/master/types.pdf",
-      "speaker": [
+      "speaker": {
         "name": "Brian Hurt",
         "github": "",
         "twitter": ""
-      ],
+      },
       "modal": "typeInference"
     },
     {
@@ -209,11 +209,11 @@ This talk will give a brief introduction to the diagrams EDSL and how to use it,
       "img_thumb": "http://img.youtube.com/vi/zV70nrsMEZg/hqdefault.jpg",
       "youtubeId": "zV70nrsMEZg",
       "slides_url": "http://nocandysw.com/how-to-define-data-types.pdf",
-      "speaker": [
+      "speaker": {
         "name": "Stephen Compall",
         "github": "",
         "twitter": ""
-      ],
+      },
       "modal": "defineTypes"
     }
   ]
