@@ -185,9 +185,9 @@ layout: default
                 <p>
                   <b>{{video.title}}</b>, by {{video.speaker.name}}
                 </p>
-                <p>{{video.abstract}}
-                            </p>
-                {% if video.slides_url %}
+                <p><b>Abstract:</b> <br/>{{video.abstract }}</p>
+                <p><b>Bio:</b> {{video.bio }}</p>
+                {% if video.slides_url != "" %}
                 <p><b><a href="{{video.slides_url}}">Slides</a></b></p>
                 {% endif %}
                 {% if video.reddit_url %}
