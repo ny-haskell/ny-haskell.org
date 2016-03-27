@@ -11,3 +11,7 @@ footer-links:
 # google_analytics:
 
 url: http://ny-haskell.org
+
+kramdown:
+  input: GFM
+  hard_wrap: false
