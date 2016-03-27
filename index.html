@@ -244,7 +244,11 @@ layout: default
         <div class="col-lg-6 blog-bg">
           <div class="col-lg-4 centered">
           <br>
-            <p><img class="img img-circle" src="{{ post.authorimgurl }}" width="60px" height="60px"></p>
+            <p>
+            {% if authoremail != "" %}
+            <img class="img img-circle" src="{{ post.authoremail | to_gravatar:80 }}" />
+            {% endif %}
+            </p>
             <h4><a href="{{ post.authorurl }}">{{ post.author }}</a></h4>
             <h5>Published {{ post.date | date: '%h %-d, %I:%M%P' }}.</h5>
           </div>
