@@ -3,6 +3,8 @@ description: "The NY Haskell Users Group is for all programmers either intereste
 
 markdown: kramdown
 
+exclude: [Gemfile, Gemfile.lock, CNAME, Readme.md]
+
 footer-links:
   github: ny-haskell
 
