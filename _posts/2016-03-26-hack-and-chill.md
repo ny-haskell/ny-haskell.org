@@ -5,7 +5,7 @@ title: Hack and Chill
 author: Kat Chuang
 github_username: katychuang
 authorurl: http://twitter.com/katychuang
-authoremail: katychuang@gmail.com
+gravatar: 0c64f5404b8787a038e8f6fa9522224d
 category: events
 ---
 

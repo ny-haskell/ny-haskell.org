@@ -246,7 +246,7 @@ layout: default
           <br>
             <p>
             {% if authoremail != "" %}
-            <img class="img img-circle" src="{{ post.authoremail | to_gravatar:80 }}" />
+              <img class="img img-circle" src="http://www.gravatar.com/avatar/{{ post.gravatar}}?s=80" />
             {% endif %}
             </p>
             <h4><a href="{{ post.authorurl }}">{{ post.author }}</a></h4>
