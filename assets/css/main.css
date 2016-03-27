@@ -214,6 +214,7 @@ blockquote {
     margin: 0 0 40px -30px;
     padding-left: 30px;
     border-left: 5px solid #3498db;
+    border-color: transparent;
 }
 
 blockquote cite {
@@ -634,3 +635,6 @@ a:after {
 	}
 }
 
+.flickr-embed {
+  margin: 0 auto;
+}
