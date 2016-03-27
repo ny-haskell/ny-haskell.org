@@ -22,6 +22,10 @@ Today 25 haskellers gathered together to spend a Saturday afternoon to chat abou
 
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/katychuang/25959930662/in/datetaken-friend/" title="Haskell Hack &amp; Chill"><img src="https://farm2.staticflickr.com/1640/25959930662_07ab15b975_z.jpg" width="640" height="427" alt="Haskell Hack &amp; Chill"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/katychuang/25456418593/in/datetaken-friend/" title="Haskell Hack &amp; Chill"><img src="https://farm2.staticflickr.com/1515/25456418593_cc52f970fe_z.jpg" width="640" height="428" alt="Haskell Hack &amp; Chill"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+<a data-flickr-embed="true"  href="https://www.flickr.com/photos/katychuang/25992646261/in/datetaken-friend/" title="Haskell Hack &amp; Chill"><img src="https://farm2.staticflickr.com/1555/25992646261_476fb9a423_z.jpg" width="640" height="428" alt="Haskell Hack &amp; Chill"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
 In the last hour, a few fine folks gave lightning talks: 
 
 Hector talked about his project [PTCPD server project](https://github.com/HectorAE/ptcpd), which is a server-side PTCP component in Haskell that can host a plain text chat network. He got the crowd to participate in chatting on his demo network!
