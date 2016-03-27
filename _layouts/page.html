@@ -1,0 +1,107 @@
+---
+layout: default
+---
+  
+    {% include nav.html %}
+    <br/>
+
+    <!-- ==== SECTION DIVIDER4 ==== -->
+    <section class="section-divider textdivider divider4">
+      <div class="container">
+        <h1>NY Haskell Blog</h1>
+        <hr>
+        <p>See what our members have been up to!</p>
+      </div><!-- container -->
+    </section><!-- section -->
+    
+    <!-- ==== BLOG ==== -->
+    <div class="container" id="blog" name="blog">
+    <br>
+      <div class="row">
+        <br>
+        <h1 class="centered">{{page.category}}: {{ page.title }}</h1>
+        <hr>
+        <p class="centered">Posted by <a href="{{ page.authorurl }}">{{ page.author }}</a><br/>
+        Published {{ page.date | date: '%h %-d, %I:%M%P' }}</p>
+        <br>
+        <br>
+      </div><!-- /row -->
+      
+      <div class="row">
+
+        <div class="col-lg-offset-2 col-lg-8">
+
+          <div class="">
+            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            {{content}}
+            <br>
+          </div>
+        </div><!-- /col -->
+        
+      </div><!-- /row -->
+      <br>
+      <br>
+      <p><a href="{{ site.url }}">&#8592; Back to home</a></p>
+    </div><!-- /container -->
+   
+    <!-- ==== SECTION DIVIDER6 ==== -->
+    <section class="section-divider textdivider divider6">
+      <div class="container">
+        <h1>CRAFTED IN NEW YORK, USA.</h1>
+        <hr>
+        <p>ny-haskell | 
+                <a class="icon icon-github" href="http://github.com/ny-haskell"></a> | <a class="icon icon-youtube" href="https://www.youtube.com/channel/UCzNYHE7Kj6pBqq5h8LG9Zcg"></a> </p>
+      </div><!-- container -->
+    </section><!-- section -->
+    
+    <div class="container" id="contact" name="contact">
+      <div class="row">
+      <br>
+        <h1 class="centered">THANKS FOR VISITING US</h1>
+        <hr>
+        <br>
+        <br>
+        <div class="col-lg-4">
+          <h3>Contact Information</h3>
+            <span class="icon icon-envelop"></span> <a href="#"> info@ny-haskell.org</a> <br/>
+            <span class="icon icon-github"></span> <a href="http://github.com/ny-haskell">ny-haskell</a> <br/>
+            <span class="icon icon-youtube"></span> <a href="https://www.youtube.com/channel/UCzNYHE7Kj6pBqq5h8LG9Zcg">ny-haskell</a> <br/>
+          </p>
+        </div><!-- col -->
+        
+        <div class="col-lg-4">
+          <!--h3>Newsletter</h3>
+          <p>Register to our newsletter and be updated with the latests information regarding our services, offers and much more.</p>
+          <p>
+            <form class="form-horizontal" role="form">
+              <div class="form-group">
+                <label for="inputEmail1" class="col-lg-4 control-label"></label>
+                <div class="col-lg-10">
+                  <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="text1" class="col-lg-4 control-label"></label>
+                <div class="col-lg-10">
+                  <input type="text" class="form-control" id="text1" placeholder="Your Name">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-lg-10">
+                  <button type="submit" class="btn btn-success">Sign in</button>
+                </div>
+              </div>
+             </form--><!-- form -->
+          <!-/p-->
+        </div><!-- col -->
+        
+        <div class="col-lg-4">
+          <h3>Support Us</h3>
+          <p>We are a registered non-profit group. Your donations are tax-deductible. To get more information about this, please contact us.</p>
+        </div><!-- col -->
+
+      </div><!-- row -->
+    
+    </div><!-- container -->
+    {% include footer.html %}
+
