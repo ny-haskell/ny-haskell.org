@@ -1,0 +1,23 @@
+.navbar-inverse{
+  background: #FFFFFF;
+  border-color: #dddddd;
+}
+
+.navbar-nav > li > a {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.navbar-brand {
+    float: left;
+    font-size: 18px;
+    height: 70px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.navbar-brand:hover{
+  color: #CCC;
+}
