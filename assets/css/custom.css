@@ -18,10 +18,14 @@
   font-weight: 600;
 }
 
-.navbar-brand:hover{
-  color: #CCC;
+.navbar-inverse .navbar-brand:hover, 
+.navbar-inverse .navbar-brand:focus,
+.navbar-inverse .navbar-nav > li > a:hover, 
+.navbar-inverse .navbar-nav > li > a:focus{
+  color: #000;
 }
 
+}
 
 #headerwrap .form{
   /*background: rgba(90,90,90,0.7);*/
