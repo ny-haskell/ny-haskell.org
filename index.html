@@ -16,19 +16,19 @@ layout: default
     <!-- ==== GREYWRAP ==== -->
     <div id="greywrap">
       <div class="row">
-        <div class="col-lg-4 callout">
+        <div class="col-lg-4 col-md-4 callout">
           <span class="icon icon-stack"></span>
           <h2>Join our mailing list</h2>
                     <p>Visit our <a href="http://meetup.com/ny-haskell">meetup page</a> to get notified of upcoming events. </p>
         </div><!-- col-lg-4 -->
           
-        <div class="col-lg-4 callout">
+        <div class="col-lg-4 col-md-4 callout">
           <span class="icon icon-youtube"></span>
           <h2>Videos</h2>
                     <p>Our <a href="https://www.youtube.com/channel/UCzNYHE7Kj6pBqq5h8LG9Zcg">youtube channel</a> contains recently recorded talks from our events. </p>
         </div><!-- col-lg-4 --> 
         
-        <div class="col-lg-4 callout">
+        <div class="col-lg-4 col-md-4 callout">
           <span class="icon icon-heart"></span>
           <h2>Crafted with Love</h3>
           <p>Learn to code in Haskell!</p>
@@ -245,7 +245,7 @@ layout: default
           <div class="col-lg-4 centered">
           <br>
             <p>
-            {% if authoremail != "" %}
+            {% if post.gravatar != "" %}
               <img class="img img-circle" src="http://www.gravatar.com/avatar/{{ post.gravatar}}?s=80" />
             {% endif %}
             </p>
