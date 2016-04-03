@@ -25,7 +25,19 @@
   color: #000;
 }
 
+#eventsaction{
+  padding: 60px 0;
+  background: #f7f7f7;
 }
+
+#eventsaction .icon-box {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #fff;
+    text-align: center;
+}
+
 
 #headerwrap .form{
   /*background: rgba(90,90,90,0.7);*/
@@ -52,3 +64,34 @@
   background: linear-gradient(to right, rgba(25, 17, 31, 0.7) 0%, rgba(44, 30, 55, 0.7) 100%);
 }
 */
+
+.social {
+    margin: 20px 0 10px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.social li {
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 1.25rem;
+    line-height: 1;
+}
+
+.social a {
+    color: #fff;
+}
+
+.social a .icon {
+    width: 1em;
+    height: 1em;
+}
+
+#footerwrap {
+  padding: 60px 0;
+}
+#footerwrap small, #footerwrap .small {
+    font-size: 85%;
+    color: #fff;
+}
