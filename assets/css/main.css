@@ -271,14 +271,13 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-	background: #000 no-repeat center top;
-	margin-top: -50px;
-    padding-bottom: 20px;
-	padding-top:120px;
+	background: #000 url(../img/bg/header.jpg) no-repeat center top;
+	margin-top: 0;
+    padding-bottom: 0;
+	padding-top: 70px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 650px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
@@ -316,13 +315,12 @@ a:after {
 #greywrap {
 	background: #f5f5f5;
 	margin-top: 0px;
-	padding-top: 40px;
 	border-bottom: 1px solid #ddd;
 	text-align: center;
 }
 
 #greywrap .callout {
-	margin-bottom: 20px;
+    padding: 60px 20px;
 }
 
 #greywrap p {
@@ -335,7 +333,7 @@ a:after {
 
 #greywrap .icon {
 	font-size: 60px;
-	line-height: 30px;
+	/*line-height: 30px;*/
 	margin-bottom: 10px;
 }
 
