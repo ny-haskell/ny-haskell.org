@@ -22,73 +22,8 @@ layout: default
 
     {% include _team.html %}
     
+    {% include _videos.html %}
     
-    <!-- ==== VIDEOS ==== -->
-    <div class="container" id="videos" name="portfolio">
-    <br>
-      <div class="row">
-        <br>
-        <h1 class="centered">WE CREATE COOL STUFF</h1>
-        <hr>
-        <br>
-        <br>
-      </div><!-- /row -->
-      <div class="container">
-      <div class="row"> 
-      {% for video in site.data.videos.talks %}
-        <div class="col-lg-4 col-md-4 col-sm-4">
-          <div class="grid mask">
-          <figure>
-            <img class="img-responsive" src="http://img.youtube.com/vi/{{video.youtubeId}}/hqdefault.jpg" alt="">
-            <figcaption>
-              <a data-toggle="modal" href="#{{video.modal}}" class="btn btn-link btn-lg">
-                <h5>{{video.title}}</h5>
-              </a>
-            </figcaption><!-- /figcaption -->
-          </figure><!-- /figure -->
-          </div><!-- /grid-mask -->
-        </div><!-- /col -->
-      {% endfor %}
-    </div><!-- /row -->
-
-      {% for video in site.data.videos.talks | reverse  %}
-        <div class="modal fade" id="{{video.modal}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title">{{video.title}}</h4>
-              </div>
-              <div class="modal-body">
-                <p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/{{video.youtubeId}}" frameborder="0" allowfullscreen></iframe>
-                </p>
-                <p>
-                  <b>{{video.title}}</b>, by {{video.speaker.name}}
-                </p>
-                <p><b>Abstract:</b> <br/>{{video.abstract }}</p>
-                <p><b>Bio:</b> {{video.bio }}</p>
-                {% if video.slides_url != "" %}
-                <p><b><a href="{{video.slides_url}}">Slides</a></b></p>
-                {% endif %}
-                {% if video.reddit_url %}
-                <p><b><a href="{{video.reddit_url}}">Discussion on Reddit</a></b></p>
-                {% endif %}
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div><!-- /.modal-content -->
-          </div><!-- /.modal-dialog -->
-        </div><!-- /.modal -->
-      {% endfor %}
-
-
-      <br>
-      <br>
-    </div><!-- /row -->
-  </div><!-- /container -->
-
     <!-- ==== SECTION DIVIDER4 ==== -->
     <section class="section-divider textdivider divider3">
       <div class="container">
