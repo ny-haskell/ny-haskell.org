@@ -410,7 +410,12 @@ a:after {
 /* Section Dividers Backgrounds */
 
 .divider1 {
-	background-image: url('../img/bg/divider1.jpg')
+	background-image: url('../img/bg/divider2.jpg');
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
 }
 
 .divider2 {
