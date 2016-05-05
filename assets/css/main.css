@@ -565,6 +565,7 @@ a:after {
 	transition: transform 0.4s, opacity 0.1s 0.3s;
 }
 
+.mask figure:hover figcaption,
 .no-touch .mask figure:hover figcaption,
 .mask figure.cs-hover figcaption {
 	opacity: 1;
