@@ -425,7 +425,9 @@ a:after {
 }
 
 .divider4 {
-    background-color: #bcbfbd;
+  background-color: #bcbfbd;
+	background-image: url('../img/bg/divider3.jpg');
+
 }
 
 .divider6 {
