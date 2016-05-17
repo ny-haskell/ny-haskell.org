@@ -1,6 +1,20 @@
 {
   "talks": [
     {
+      "title": "Partial Derivatives of Regular Expressions",
+      "abstract": "Brian Hurt explains a different approach, with a number of advantages, to implementing regular expressions. Despite the title, no math is actually required- so if you don't remember calculus (or never took it), that's OK.  A pragmatic understanding of regular expressions is assumed however.  This is a Haskell-based variation of a previous talk on this topic, so there will be some discussion on the differences between Haskell and Clojure.",
+      "talk_date": "2016-03-23 19:00:00",
+      "meetup_url": "http://www.meetup.com/NY-Haskell/events/229615869/",
+      "youtubeId": "QVdBPvOOjBA",
+      "slides_url": "https://github.com/bhurt/presentations/blob/master/pdrehs.odp?raw=true",
+      "speaker": {
+        "name": "Brian Hurt",
+        "github": "https://github.com/bhurt",
+        "twitter": "https://twitter.com/bhurt42"
+      },
+      "modal": "partial-derivatives-of-regular-expressions"
+    },
+    {
       "title": "Translating Hardware to Haskell",
       "abstract": "Despite years of research, most digital integrated circuits are still described in low-level register-transfer languages like Verilog and VHDL.  Users must enumerate nearly every gate, wire, and flip-flop, something we would like to avoid in today's era of billion-transistor chips.  Moreover, types in these languages tend to be limited to bit vectors, and even basic control constructs such as iteration are barely supported.<br/><br/>
       Consequently, many have proposed higher-level hardware description languages, allowing the designer to specify behavior of their computation without concern for such low-level implementation details. These efforts have demonstrated the importance of the original language semantics.  Imperative languages such as C tend to produce mediocre hardware because their semantics rest on a single, global memory that is difficult to parallelize.  Functional languages in the form of embedded DSLs have met with more success.<br/><br/>
