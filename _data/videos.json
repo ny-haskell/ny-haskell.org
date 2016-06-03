@@ -1,6 +1,34 @@
 {
   "talks": [
     {
+      "title": "Typed Routing with Continuations",
+      "abstract": "We'll look into how thinking in terms of continuations, a powerful programming technique with applications across disparate domains, can allow us to write this routing and wrap it up in an easy-to-use package. The talk begins this exploration of continuations with the simpler example of a type-safe printf and builds up to the full routing that powers Fn currently.",
+      "talk_date": "2016-04-27 19:00:00",
+      "meetup_url": "http://www.meetup.com/NY-Haskell/events/230142951/",
+      "youtubeId": "tQI2JJwD_ZY",
+      "slides_url": "https://dbp.io/static/fn-continuations-transitions-haskell-meetup-2016.pdf",
+      "speaker": {
+        "name": "Daniel Patterson",
+        "github": "https://github.com/dbp",
+        "twitter": "https://twitter.com/dbp__"
+      },
+      "modal": "typed-routing-with-continuations"
+    },
+    {
+      "title": "Web Dev with Fn",
+      "abstract": "Fn is a beginner-and-advanced-friendly routing layer on top of the WAI interface. It's a web framework, but a pretty minimal one. Writing web code with Fn is as similar as possible to writing regular Haskell functions. Instead of having web handlers that are opaque monadic actions, the handler functions take arguments (query parameters, segments of the url, or even post bodies) and return responses. In this part of the talk, we'll learn a little bit about Haskell web development while writing a simple application with Fn.",
+      "talk_date": "2016-04-27 19:00:00",
+      "meetup_url": "http://www.meetup.com/NY-Haskell/events/230142951/",
+      "youtubeId": "tuBeA1wn4js",
+      "slides_url": "http://slides.com/emhoracek/web-dev-with-fn#/",
+      "speaker": {
+        "name": "Libby Horacek",
+        "github": "https://github.com/emhoracek",
+        "twitter": "https://twitter.com/horrorcheck"
+      },
+      "modal": "web-dev-with-fn"
+    },
+    {
       "title": "Partial Derivatives of Regular Expressions",
       "abstract": "Brian Hurt explains a different approach, with a number of advantages, to implementing regular expressions. Despite the title, no math is actually required- so if you don't remember calculus (or never took it), that's OK.  A pragmatic understanding of regular expressions is assumed however.  This is a Haskell-based variation of a previous talk on this topic, so there will be some discussion on the differences between Haskell and Clojure.",
       "talk_date": "2016-03-23 19:00:00",
