@@ -1,6 +1,20 @@
 {
   "talks": [
     {
+      "title": "BuckleScript: compiling one OCaml module into one readable JavaScript module",
+      "abstract": "The JavaScript platform runs everywhere with an extensive ecosystem but can rapidly become hard to maintain for large applications. OCaml is a very expressive and safe language which works well on such a use case. In this talk we will introduce a new OCaml backend for Javascript, called BuckleScript, and designed for seamless integration with the JavaScript world. We will show how OCaml developers can leverage the JavaScript tooling for both daily development as well as the release of their software  (including to browsers and node.js both). We will also talk about the design of BuckleScript FFI and how it is different from PureScript and GHCJS.",
+      "talk_date": "2016-07-27 19:00:00",
+      "meetup_url": "http://www.meetup.com/NY-Haskell/events/232382379/",
+      "youtubeId": "LC3KKHYbSQQ",
+      "slides_url": "https://bloomberg.github.io/bucklescript/slides/Haskell_meetup.html",
+      "speaker": {
+        "name": "Hongbo Zhang",
+        "github": "https://github.com/bobzhang",
+        "twitter": "https://twitter.com/bobzhang1988"
+      },
+      "modal": "bucklescript-compiling-one-ocaml-module-into-one-readable-javascript-module"
+    },
+    {
       "title": "Typed Routing with Continuations",
       "abstract": "We'll look into how thinking in terms of continuations, a powerful programming technique with applications across disparate domains, can allow us to write this routing and wrap it up in an easy-to-use package. The talk begins this exploration of continuations with the simpler example of a type-safe printf and builds up to the full routing that powers Fn currently.",
       "talk_date": "2016-04-27 19:00:00",
