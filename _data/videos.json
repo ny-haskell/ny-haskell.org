@@ -1,6 +1,20 @@
 {
   "talks": [
     {
+      "title": "Elementary Category Theory and Some Insightful Examples",
+      "abstract": "It turns out that much of Haskell can be understood through a branch of mathematics called Category Theory. Concepts such as Functor, Adjoints, Monads and others all have a basis in the Category Theory. In this talk, basic categorical concepts, starting with categories and building through functors, natural transformations, and universality, will be introduced. To illustrate these, some mathematical concepts such as homology and homotopy, monoids and groups will be discussed as well (proofs omitted).",
+      "talk_date": "2016-07-27 20:00:00",
+      "meetup_url": "http://www.meetup.com/NY-Haskell/events/232382379/",
+      "youtubeId": "CkD_pLPjSAI",
+      "slides_url": "",
+      "speaker": {
+        "name": "Eddie Grutman",
+        "github": "",
+        "twitter": ""
+      },
+      "modal": "elementary-category-theory-and-some-insightful-examples"
+    },
+    {
       "title": "BuckleScript: compiling one OCaml module into one readable JavaScript module",
       "abstract": "The JavaScript platform runs everywhere with an extensive ecosystem but can rapidly become hard to maintain for large applications. OCaml is a very expressive and safe language which works well on such a use case. In this talk we will introduce a new OCaml backend for Javascript, called BuckleScript, and designed for seamless integration with the JavaScript world. We will show how OCaml developers can leverage the JavaScript tooling for both daily development as well as the release of their software  (including to browsers and node.js both). We will also talk about the design of BuckleScript FFI and how it is different from PureScript and GHCJS.",
       "talk_date": "2016-07-27 19:00:00",
