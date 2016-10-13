@@ -1,6 +1,21 @@
 {
   "talks": [
     {
+      "title": "The Design and Implementation of a Concurrent Bloom Filter",
+      "abstract": "This talk will walk through design decisions and implementation details of a new fast, concurrent bloom filter for haskell called \"unagi-bloomfilter\". Some of the topics covered will be&#58;<br>&#176; Bloom filters and variations<br>&#176; concurrent algorithm basics, including atomic operations and the concept of linearizability<br>&#176; techniques and pitfalls in translating an equation to code<br> the design and motivation for \"hashabler\", a hashing library designed to support \"unagi-bloomfilteri\"<br> &#176; A trick for translating stateful numeric C into haskell",
+      "bio": "Brandon Simmons is a programmer, musician and photographer living in Richmond, VA. As a Platform Engineer at Signal Vine he leads the haskell project that handles the core logic and mechanics of the Signal Vine messaging platform.",
+      "talk_date": "2016-08-24 20:00:00",
+      "meetup_url": "http://www.meetup.com/NY-Haskell/events/233372271/",
+      "youtubeId": "gn8d7z7itas",
+      "slides_url": "",
+      "speaker": {
+        "name": "Brandon Simmons",
+        "github": "",
+        "twitter": ""
+      },
+      "modal": "design-and-implementation-concurrent-bloom-filter"
+    },
+    {
       "title": "Elementary Category Theory and Some Insightful Examples",
       "abstract": "It turns out that much of Haskell can be understood through a branch of mathematics called Category Theory. Concepts such as Functor, Adjoints, Monads and others all have a basis in the Category Theory. In this talk, basic categorical concepts, starting with categories and building through functors, natural transformations, and universality, will be introduced. To illustrate these, some mathematical concepts such as homology and homotopy, monoids and groups will be discussed as well (proofs omitted).",
       "talk_date": "2016-07-27 20:00:00",
