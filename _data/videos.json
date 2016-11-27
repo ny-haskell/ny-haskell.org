@@ -1,6 +1,21 @@
 {
   "talks": [
     {
+      "title": "Git Internals with Haskell",
+      "abstract": "Implementing a git library in Haskell is a great way of learning both at the same time. This talk will go over some of Haskell's strengths and weaknesses for this domain, and some of the concepts learned along the way that improved the development of this library.",
+      "bio": "",
+      "talk_date": "2016-09-28 19:00:00",
+      "meetup_url": "https://www.meetup.com/NY-Haskell/events/234305073/",
+      "youtubeId": "wsNnP3we_R4",
+      "slides_url": "https://github.com/vaibhavsagar/duffer/blob/master/presentation/presentation.md",
+      "speaker": {
+        "name": "Vaibhav Sagar",
+        "github": "https://github.com/vaibhavsagar",
+        "twitter": "https://twitter.com/vsagar2109"
+      },
+      "modal": "git-internals-with-haskell"
+    },
+    {
       "title": "The Design and Implementation of a Concurrent Bloom Filter",
       "abstract": "This talk will walk through design decisions and implementation details of a new fast, concurrent bloom filter for haskell called \"unagi-bloomfilter\". Some of the topics covered will be&#58;<br>&#176; Bloom filters and variations<br>&#176; concurrent algorithm basics, including atomic operations and the concept of linearizability<br>&#176; techniques and pitfalls in translating an equation to code<br> the design and motivation for \"hashabler\", a hashing library designed to support \"unagi-bloomfilteri\"<br> &#176; A trick for translating stateful numeric C into haskell",
       "bio": "Brandon Simmons is a programmer, musician and photographer living in Richmond, VA. As a Platform Engineer at Signal Vine he leads the haskell project that handles the core logic and mechanics of the Signal Vine messaging platform.",
