@@ -518,13 +518,15 @@ a:after {
 	font-weight: 700;
 	text-align: left;
 	letter-spacing: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 	
 }
 
 .grid figcaption a {
 	text-align: left;
 	padding: 5px 10px;
-	margin-left: 20px;
 	display: inline-block;
 	/*background: #2f2f2f;*/
 	color: #fff;
@@ -582,7 +584,7 @@ a:after {
 	position: absolute;
 	top:10px;
 	bottom: 10px;
-	right: 30px;
+  width: 90%;
 }
 
 
